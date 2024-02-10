@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#navbar {
+    background-color: #730202; /* Set initial background color */
+    overflow: hidden;
+    padding: 1px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+#navbar:hover {
+    background-color: #000000; /* Change color on hover */
+}
+.site-name {
+    margin-left: -1150px;
+    color: white;
+    font-family: serif;
+
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: serif;
+
+}
+
+.nav-links a:hover {
+  background-color: #000000; /* Change color on hover */
+
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #910101; /* Set your desired background color */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+    background-color:#ffffff; /* Set your desired content background color */
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color:#000000 ; /* Set your desired button color */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #5c0101; /* Set your desired button hover color */
+}
+
+.image img {
+    width: 100%; /* Make the image fill its container */
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.title{
+color: #CCCCCE;
+text-align: center;
+margin-top: 0%;
+}
+
+.title h1{
+  font-size: 80px;
+  line-height: 120px;
+  font-weight: 400;
+  font-family: serif;
+}
+
+.title p{
+font-family: 'Cormorant Infant', serif;
+font-size: 20px;
+line-height: 28px;
+margin-top: 2px;
+}
+
+.links{
+margin-top: 455px;
+text-align: center;
+font-family: 'Cormorant Infant', serif;
+font-size: 20px;
+}
+
+.btn{
+  color: #CCCCCE;
+  border: 0.5px solid #CCCCCE;
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  color: #15223B;
+  background-color: #CCCCCE;
+  body {
+             text-align: center;
+         }
+
+         h1 {
+             color: #333;
+         }
+
+         p {
+             color: #666;
+         }
+
+         .link-button {
+             display: inline-block;
+             margin: 10px;
+             padding: 10px 20px;
+             background-color: #007bff;
+             color: #fff;
+             text-decoration: none;
+             cursor: pointer;
+             border: none;
+             border-radius: 5px;
+         }
+
+}
+.mission{
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.mission h1{
+  line-height: 120px;
+  font-weight: 400;
+  font-family: serif;
+  margin: 30px;
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.mission p{
+font-family: 'Cormorant Infant', serif;
+color: #ffffff;
+font-size: 22px;
+margin: 37px 10%;
+border: 10px solid #000000;
+background-color: rgba(255, 255, 255);
+border-radius: 30px;
+padding: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    color: #fffff;
+}
+
+.flowchart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flowchart-item {
+    width: 150px;
+    margin: 20px;
+    text-align: center;
+}
+
+.flowchart-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.flowchart-item h2 {
+    color: #ffffff;
+}
+#social-buttons {
+     text-align: center;
+     margin-top: 20px;
+   }
+
+   #social-buttons img {
+     width: 30px; /* Adjust the size as needed */
+     margin: 0 10px; /* Adjust the spacing as needed */
+   }
+
+     </style>
+ </head>
+</style>

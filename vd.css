@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#navbar {
+    background-color: #870101; /* Set initial background color */
+    overflow: hidden;
+    padding: 1px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+#navbar:hover {
+    background-color: #000000; /* Change color on hover */
+}
+.site-name {
+    margin-left: 20px;
+    color: white;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+  background-color: #000000; /* Change color on hover */
+
+}
