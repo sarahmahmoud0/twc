@@ -6,8 +6,8 @@ p {
     padding: 10px;
 }
 html, body{
-  height: 110%;
-  background-color: #910101;
+  height: 150%;
+  background-color: #F5F5DC;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@500&display=swap');
@@ -91,7 +91,7 @@ p {
   text-decoration: none;
   font-size: 36px;
   font-family: 'Cormorant Infant', serif;
-  color:#910101;
+  color:#F5F5DC;
   display: block;
  transition: 0.3s;
 }
@@ -140,7 +140,7 @@ width: 25px;
 }
 
 .body div{
-  background-color: #910101;
+  background-color: #F5F5DC;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -162,7 +162,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #910101;
+    background-color: #F5F5DC;
 }
 
 
@@ -176,7 +176,7 @@ body {
 .content {
     flex: 1;
     text-align: center;
-    background-color:#ffffff;
+    background-color:#F5F5DC;
     padding: 100px;
     border-radius: 10px;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0);
@@ -244,7 +244,7 @@ font-size: 20px;
 }
 
 .btn{
-  color: #CCCCCE;
+  color: #470101;
   border: 0.5px solid #CCCCCE;
   border-radius: 30px;
   padding: 5px 15px;
@@ -253,36 +253,18 @@ font-size: 20px;
 }
 
 .btn:hover{
-  color: #15223B;
-  background-color: #CCCCCE;
-  body {
-             text-align: center;
-         }
-
-         h1 {
-             color: #333;
-         }
-
-         p {
-             color: #666;
-         }
-
-         .link-button {
-             display: inline-block;
-             margin: 10px;
-             padding: 10px 20px;
-             background-color: #007bff;
-             color: #fff;
-             text-decoration: none;
-             cursor: pointer;
-             border: none;
-             border-radius: 5px;
-         }
-
+  color: #EAE9EC;
+  background-color: #203354;
 }
 
-
-
+.duty {
+  border: 1px solid #0E1727;
+  border-radius: 20px;
+  background-color: #152238;
+  color: #EAE9EC;
+  padding: 10px;
+  margin: 10px 100px;
+}
 .duty h1{
   line-height: 120px;
   font-weight: 2em;
@@ -302,9 +284,6 @@ body {
     margin: 0px;
 }
 
-h1 {
-    color: #fffff;
-}
 
 .flowchart {
     display: flex;
@@ -316,7 +295,7 @@ h1 {
 .flowchart-item {
     width: 150px;
     margin: 20px;
-    text-align: center;
+
 }
 
 .flowchart-item img {
