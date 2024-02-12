@@ -18,7 +18,7 @@ p {
 
 html, body{
   height: 110%;
-  background-color: #910101;
+  background-color: #F5F5DC;
 }
 
 .navbar{
@@ -32,7 +32,7 @@ html, body{
   transition: background 1s;
 }
 .navbar:hover {
-  background-color: #000000;
+  background-color: #2033540;
 }
 
 body {
@@ -161,7 +161,7 @@ width: 25px;
 .body h2{
   font-size: 50px;
   font-family: serif;
-  color: #ffffff;
+  color: #203354;
   margin: auto;
 }
 
@@ -170,7 +170,7 @@ width: 25px;
   font-size: 20px;
   border: 1px solid #0E1727;
   border-radius: 20px;
-  background-color: #0d0c0c;
+  background-color: #152238;
   color: #EAE9EC;
   padding: 10px;
   margin: 10px 100px;
