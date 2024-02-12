@@ -17,7 +17,7 @@ p {
 }
 html, body{
   height: 110%;
-  background-color: #910101;
+  background-color: #F5F5DC;
 }
 
 .navbar{
@@ -197,12 +197,12 @@ width: 25px;
   text-decoration: none;
   font-size: 36px;
   font-family: 'Cormorant Infant', serif;
-  color: #910101;
+  color: #F5F5DC;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #910101;
+  color: #F5F5DC;
 }
