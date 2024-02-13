@@ -34,6 +34,7 @@
          <div class="three"></div>
        </a>
      </div>
+
   </nav>
   </section>
   <section id=front>
@@ -49,12 +50,12 @@
           <img src="photos/awern.jpg" alt="Big Picture">
       </div>
     </div>
+    <hr class="section divider">
   </section>
 <br>
 <br>
   <section>
     <h1>Types of Disabilities</h1>
-
     <div class="flowchart">
         <div class="flowchart-item">
             <img src="photos/eye.png" alt="Step 1">
@@ -79,12 +80,33 @@
       </div>
     </section>
   <div class=container>
-    <div class=duty>
+    <div class=duty id="text-to-read" >
       <h1>Our Duty Towards Society</h1>
       <p>Nearly 40% of employers are having challenges hiring qualified employees, while at the same time one in five people in Egypt have some type of disability and are facing challenges in getting hired. Some disabilities are visible, such as physical disabilities, and some are hidden; including mental health conditions, medical conditions, learning and cognitive disabilities.</p>
       <p>At Vodafone, we ensure the full inclusion of people with disabilities within their workplace. Through promoting the right opportunities for them and continuously working with them to further develop and perform to their full potential.</p>
     </div>
+  </div>
 </div>
+<script>
+             // Function to initialize text-to-speech
+             function initTextToSpeech() {
+                 // Get the text to read
+                 var text = document.getElementById('text-to-read').innerText;
+
+                 // Initialize speech synthesis
+                 var speech = new SpeechSynthesisUtterance();
+                 speech.lang = 'en-US';
+                 speech.text = text;
+
+                 // Speak the text
+                 window.speechSynthesis.speak(speech);
+             }
+
+             // Event listener for touch or click
+             document.getElementById('text-to-read').addEventListener('click', function() {
+                 initTextToSpeech();
+             });
+         </script>
   <div id="social-buttons">
     <a href="https://www.facebook.com" target="_blank">
       <img src="photos/facebook.png" alt="Facebook">
