@@ -139,6 +139,7 @@ width: 25px;
   color:#0d0d0d;
 }
 
+
 .body div{
   background-color: #F5F5DC;
   width: 100%;
@@ -263,7 +264,7 @@ font-size: 20px;
   background-color: #152238;
   color: #EAE9EC;
   padding: 10px;
-  margin: 10px 100px;
+  margin:0 ;
 }
 .duty h1{
   line-height: 120px;
@@ -316,4 +317,12 @@ body {
    #social-buttons img {
      width: 30px;
      margin: 0 10px;
+   }
+   #text-to-read {
+       margin-top: 50px;
+       cursor: pointer;
+       padding: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       display: inline-block;
    }
