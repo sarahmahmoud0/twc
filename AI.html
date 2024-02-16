@@ -28,6 +28,7 @@
         background-color:#470101;
         min-height: 200px;
         overflow-y: auto;
+
     }
     #submit-btn {
         margin-top: 10px;
@@ -51,11 +52,11 @@
     <div id="text">
       <ul class"text-to-read>
         <li>To go to Home page, say "Go to Home" </li>
-        <li>To go to About us page, say "Go to about us" </li>
-        <li>To go to  Resources page, say "Go to resources" </li>
-        <li>To go to Sessions page, say "Go to sessions"</li>
+        <li>To go to About us page, say "Go to About us" </li>
+        <li>To go to  Resources page, say "Go to Resources" </li>
+        <li>To go to Sessions page, say "Go to Sessions"</li>
         <li>To go to Donate page, say "Go to Donate"</li>
-        <li>To go to Register page, say "Go to register"</li>
+        <li>To go to Register page, say "Go to Register"</li>
     </div>
 
     <script>
@@ -91,9 +92,10 @@
                         case "go to register":
                             window.location.href = "register.html";
                             break;
-                            case "go to ":
-                                window.location.href = "resources.html";
+                            case "go to Donate ":
+                                window.location.href = "donate.html";
                                 break;
+
                 default:
                     speakText("Command not recognized");
             }
@@ -114,3 +116,4 @@
     </script>
 </body>
 </html>
+
