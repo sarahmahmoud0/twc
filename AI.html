@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voice Navigation</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #chat-container {
+        margin-top: 50px;
+    }
+    #chat-box {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        min-height: 200px;
+        overflow-y: auto;
+    }
+    #submit-btn {
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        <button id="submit-btn">Speak</button>
+    <div id="text">
+      <ul class"text-to-read>
+        <li>To go to home page, say "Go to Home" </li>
+        <li>To go to about us page, say "Go to about us" </li>
+        <li>To go to our sources page, say "Go to resources" </li>
+        <li>To go to sessions page, say "Go to sessions"</li>
+        <li>To visit our donations, say "Go to donations"</li>
+        <li>To register, say "Go to register"</li>
+    </div>
+
+    <script>
+
+        function initSpeechRecognition() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = 'en-US';
+
+            recognition.onresult = function(event) {
+                var command = event.results[0][0].transcript.toLowerCase();
+                document.getElementById('chat-box').innerHTML += '<div><strong>You:</strong> ' + command + '</div>';
+                processCommand(command);
+            };
+
+            recognition.start();
+        }
+
+        // Function to process spoken commands
+        function processCommand(command) {
+            switch (command) {
+                case "go to home":
+                    window.location.href = "index.html";
+                    break;
+                case "go to about us":
+                    window.location.href = "about.html";
+                    break;
+                case "go to sources":
+                    window.location.href = "resources.html";
+                    break;
+              
+                default:
+                    speakText("Command not recognized");
+            }
+        }
+
+
+        function speakText(text) {
+            var speech = new SpeechSynthesisUtterance();
+            speech.lang = 'en-US';
+            speech.text = text;
+            window.speechSynthesis.speak(speech);
+        }
+
+
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            initSpeechRecognition();
+        });
+    </script>
+</body>
+</html>
